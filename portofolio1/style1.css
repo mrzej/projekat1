@@ -1,0 +1,284 @@
+header .navig
+{
+	background-image: linear-gradient(to bottom right, black, lightgrey);
+
+}
+
+header .navig a{
+  
+  color:white; 
+  display: block; 
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+header .navig p{
+	padding: 30px;
+}
+header{
+  margin-bottom: 50px;
+}
+
+.row{
+border: 2px solid white;
+
+}
+.col-sm-2{
+  border: 1px solid white;
+}
+
+
+
+
+
+header .navig a:hover{
+	
+    color: black;
+}
+.pozadina{
+	background-image: url("pozadina.jpg");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: lightblue;
+
+
+}
+.tema{
+ border: 5px solid white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  
+  height: auto;
+  text-align: center;
+  
+}
+.biofoooter {
+background-color:grey;
+  color: white;
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top:100%;
+  text-align: center;
+  padding: 1px;
+   border: 5px solid black;
+  border-radius: 3px;
+}
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+}
+.tema a p:hover{
+    
+    background-color: grey;
+
+
+}
+
+#naslov{
+	
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+  text-decoration-style: none;
+  color: lightblue;
+
+
+}
+
+
+body{
+  height: auto;
+}
+.tema a:visited{
+text-decoration: none;
+color: red;
+}
+
+.sadrzaj{
+ border: 5px solid white;
+  border-radius: 25px;
+  text-align: left;
+  margin: 50px;
+  padding: 5px;
+  height: auto;
+  font-size: 27px;
+  font-weight: bold;
+color: white;
+
+}
+.table{
+  font-size: 25px;
+  
+}
+.meni{
+  position: relative;
+  float: left;
+  width: 15%;
+  background-color: grey;
+  margin-top: 10px;
+  color: white;
+  font-size: 15px;
+}
+.tabelaa{
+  margin-top: 5px;
+
+
+}
+.tabl{
+  color: white;
+}
+.okvir{
+  border: 5px solid black;
+  color: white;
+  margin-top: 5px;
+}
+.mat{
+  color: white;
+}
+
+
+.octex{
+  font-size: 25px;
+}
+.biografija{
+background-image: url("bslika.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: #5C4033;
+}
+.kontakt{
+  color: white;
+}
+box-sizing: border-box;
+
+
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.fakeimg {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.naslova{
+  color: white;
+}
+.d-sm-none{
+  color: white;
+}
+.mat p a{
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+
+}
+.mat p a:hover{
+  color: white;
+}
+.mat{
+border: 1px solid white;
+
+
+}
+.nan{
+  font-size: 18px;
+  color: white;
+}
+.code h1{
+  color: white;
+}
+pre {
+  font-size: 15px;
+}
+.code{
+  border: 1px solid white;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.success {background-color: grey;} 
+.success:hover {background-color: white;}
+
+button p a{
+  color: black;
+}
+.row-sm-2{
+  padding: 3px;
+}

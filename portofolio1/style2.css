@@ -1,0 +1,190 @@
+header .navig
+{
+	background-image: linear-gradient(to bottom right, black, lightgrey);
+
+}
+
+header .navig a{
+  
+  color:white; 
+  display: block; 
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+header .navig p{
+	padding: 30px;
+}
+
+.row{
+border: 2px solid white;
+
+}
+.col-sm-2{
+  border: 1px solid white;
+}
+
+
+
+
+
+header .navig a:hover{
+	
+    color: black;
+}
+.pozadina{
+	background-image: url("pozadina.jpg");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: lightblue;
+
+
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid white;
+  background-image: linear-gradient(to bottom right, black, lightgrey);
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active .activee) {
+  background-color: gold;
+}
+
+li a.active {
+  color: white;
+  background-color: lightblue;
+
+}
+li a.activee{
+    color: white;
+  background-color: blueviolet;
+}
+
+
+
+
+.biofoooter {
+background-color:grey;
+  color: white;
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top:100%;
+  text-align: center;
+  padding: 1px;
+   border: 5px solid black;
+  border-radius: 3px;
+}
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+}
+.tema a p:hover{
+    
+    background-color: grey;
+
+
+}
+button p a{
+  color: black;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.success {background-color: grey;} 
+.success:hover {background-color: white;}
+.row-sm-2{
+  padding: 3px;
+}
+.tema2{
+ border: 5px solid white;
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  
+  height: auto;
+  font-size: 25px;
+  
+  color: white;
+}
+div.gallery {
+  border: 1px solid white;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}

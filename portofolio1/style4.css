@@ -1,0 +1,48 @@
+header .navig
+{
+	background-image: linear-gradient(to bottom right, black, lightgrey);
+
+}
+
+header .navig a{
+  
+  color:white; 
+  display: block; 
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+header .navig p{
+	padding: 30px;
+}
+header{
+  margin-bottom: 50px;
+}
+
+.row{
+border: 2px solid white;
+
+}
+.col-sm-2{
+  border: 1px solid white;
+}
+
+
+
+
+
+header .navig a:hover{
+	
+    color: black;
+}
+.pozadina{
+	background-image: url("pozadina.jpg");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: lightblue;
+
+
+}
